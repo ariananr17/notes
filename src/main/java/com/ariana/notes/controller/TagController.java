@@ -17,7 +17,6 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping(path = "/api/v1/tags")
-@CrossOrigin(methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE })
 @RequiredArgsConstructor
 public class TagController {
 

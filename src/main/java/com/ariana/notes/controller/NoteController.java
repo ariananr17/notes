@@ -16,7 +16,6 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping(path = "/api/v1/notes")
-@CrossOrigin( methods = { RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE })
 @RequiredArgsConstructor
 public class NoteController {
 
